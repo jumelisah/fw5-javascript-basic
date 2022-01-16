@@ -1,4 +1,4 @@
-let printSegitiga = 7
+let printSegitiga = 5
 
 if(printSegitiga!==null && printSegitiga!==undefined){
     if(typeof(printSegitiga)== "number"){
