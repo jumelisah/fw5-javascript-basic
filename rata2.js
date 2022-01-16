@@ -6,11 +6,17 @@ let j = nilai.length
 let i = 0
 while(i<j){
     if(nilai[i]!==null && nilai[i]!==undefined){
-        if(nilai[i]<=100 && nilai[i]>=0){
-            total+= nilai[i]
-            i++
+        if(typeof nilai[i]=="number"){
+            if(nilai[i]<=100 && nilai[i]>=0){
+                total+= nilai[i]
+                i++
+            }else{
+                console.log("Nilai harus diantara 0-100")
+                total = null
+                i = j
+            }
         }else{
-            console.log("Nilai harus diantara 0-100")
+            console.log("Nilai harus berupa angka")
             total = null
             i = j
         }
