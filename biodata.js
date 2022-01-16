@@ -23,28 +23,28 @@ const biodata = {
             major : 'IPA'
         }
     ],
-    skills : {
-        0 : {
+    skills : [
+        {
             skillName : 'HTML & CSS',
             level : 'beginner'
         },
-        1 : {
+        {
             skillName : 'Javascript',
             level : 'beginner'
         },
-        2 : {
+        {
             skillName : 'Microsoft Office',
             level : 'advanced'
         },
-        3 : {
+        {
             skillName : 'Microsoft Excel',
             level : 'advanced'
         },
-        4 : {
+        {
             skillName : 'Microsoft PowerPoint',
             level : 'advanced'
         }
-    },
+    ],
     interestInCoding : true
 }
 
